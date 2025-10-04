@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tekstil Atıkları - Sürdürülebilir Gelecek</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #e8f5e9; /* Açık yeşil */
+      color: #2e7d32; /* Koyu yeşil */
+    }
+
+    .navbar {
+      background-color: #388e3c;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .navbar .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: white;
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1581092916765-4f3ef4a62b91?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+      color: white;
+      height: 70vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      text-shadow: 2px 2px 8px #000;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      text-shadow: 1px 1px 6px #000;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #1b5e20;
+      border-bottom: 3px solid #66bb6a;
+      display: inline-block;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+    }
+
+    #solutions ul {
+      padding-left: 1.2rem;
+    }
+
+    #team {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+
+    .member {
+      background-color: #c8e6c9;
+      padding: 1rem;
+      border-radius: 12px;
+      text-align: center;
+      width: 220px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .member img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      border: 3px solid #66bb6a;
+    }
+
+    .member h3 {
+      margin: 0.5rem 0 0.2rem;
+      color: #2e7d32;
+    }
+
+    .member p {
+      margin: 0;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #388e3c;
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#" class="logo">Tekstil Atık</a>
+    <ul class="nav-links">
+      <li><a href="#solutions">Çözümler</a></li>
+      <li><a href="#team">Takım</a></li>
+      <li><a href="#gallery">Görseller</a></li>
+      <li><a href="#about">Hakkımızda</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <h1>Sürdürülebilir Bir Gelecek İçin</h1>
+    <p>Tekstil atıklarıyla mücadele ediyoruz. Daha yeşil bir dünya için harekete geç!</p>
+  </header>
+
+  <section id="solutions">
+    <h2>Çözümlerimiz</h2>
+    <ul>
+      <li>Atık kumaşların geri dönüştürülmesi</li>
+      <li>Organik ve doğal malzemelerin kullanımı</li>
+      <li>Geri dönüşüm eğitimi ve farkındalık kampanyaları</li>
+      <li>Yerel üreticilerle sürdürülebilir işbirlikleri</li>
+    </ul>
+  </section>
+
+  <section id="team">
+    <h2>Takımımız</h2>
+    <div class="member">
+      <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Damla Saltalı">
+      <h3>Damla Saltalı</h3>
+      <p>Proje Yöneticisi</p>
+    </div>
+    <div class="member">
+      <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Umut Deniz">
+      <h3>Umut Deniz</h3>
+      <p>Çevre Uzmanı</p>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Çevre Temalı Görseller</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1562771242-4d9d5c00aa4e?auto=format&fit=crop&w=800&q=80" alt="Geri dönüşüm">
+      <img src="https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?auto=format&fit=crop&w=800&q=80" alt="Doğa">
+      <img src="https://images.unsplash.com/photo-1599940824396-5e1e4f5d56b6?auto=format&fit=crop&w=800&q=80" alt="Yeşil yaşam">
+      <img src="https://images.unsplash.com/photo-1587049352846-dfe57451d125?auto=format&fit=crop&w=800&q=80" alt="Atık yönetimi">
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>Hakkımızda</h2>
+    <p>
+      TekstilAtık platformu, sürdürülebilir tekstil için çalışan bir gönüllü girişimdir. Amacımız tekstil endüstrisinin çevresel etkisini azaltmak ve toplumda geri dönüşüm bilinci oluşturmaktır.
+    </p>
+  </section>
+
+  <footer>
+    © 2025 TekstilAtık - Tüm Hakları Saklıdır.
+  </footer>
+
+</body>
+</html>
